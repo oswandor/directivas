@@ -2,21 +2,23 @@
   <div class="container">
 
     <h1>Directivas Basicas</h1>
-    <Directiva></Directiva>
-    <DirectivasCondicionales></DirectivasCondicionales>
+    <DirectivaBind></DirectivaBind>
+    <DirectivasItererativas></DirectivasItererativas>
 
   </div>
 </template>
 
 <script>
 import Directiva from './components/Directiva.vue'
-import DirectivasCondicionales from './components/DirectivasCondicionales.vue';
+import DirectivaBind from './components/DirectivaBind.vue';
+import  DirectivasItererativas from './components/DirectivasItererativas.vue';
+
 
 export default {
   name: 'App',
   components: {
-    Directiva,
-    DirectivasCondicionales
+    DirectivaBind , 
+    DirectivasItererativas
   }
 }
 </script>
